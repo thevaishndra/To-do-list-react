@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Rubik", "Roboto", sans-serif;
+    background-color: #8b5fbf;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container > input {/*targeting input here inside input-container*/
+    width: 300px;
+    height: 30px;
+    font-size: 1.25rem;
+}
+
+.input-container > button {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    font: 1.5rem;
+    margin-top: 10px;
+    background-color: #71EE4B
+}
+
+.container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo {
+    width: 500px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F1FAEE;
+    padding: 0 5px;
+}
+
+.actions > button {
+    background-color: #F00641;
+    color: white;
+    height: 30px;
+    width: 75px;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-left: 10px;
+}
